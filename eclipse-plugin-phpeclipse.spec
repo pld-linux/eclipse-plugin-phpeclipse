@@ -8,7 +8,7 @@ Release:	0.1
 License:	CPL v1.0
 Group:		Development/Languages
 Source0:	http://dl.sourceforge.net/sourceforge/phpeclipse/PHPEclipse1.1.3-2005-01-29.zip
-# Source0-md5:	
+# Source0-md5:	a73cbf6c0862de5caf90d848b3f58302
 URL:		http://www.phpeclipse.de
 BuildRequires:	unzip
 Requires:	eclipse >= 3.0
