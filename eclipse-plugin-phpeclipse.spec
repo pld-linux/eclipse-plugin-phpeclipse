@@ -1,12 +1,12 @@
 Summary:	PHPeclipse - PHP/SQL/HTML Eclipse-Plugin
 Summary(pl):	PHPeclipse - wtyczka do Eclipse obs³uguj±ca PHP/SQL/HTML
 Name:		eclipse-plugin-phpeclipse
-Version:	1.1.4
-Release:	2
+Version:	1.1.7
+Release:	1
 License:	CPL v1.0
 Group:		Development/Languages
-Source0:	http://dl.sourceforge.net/phpeclipse/PHPeclipse-%{version}-features.zip
-# Source0-md5:	9fd1b3758e815095f44663b752f34838
+Source0:	http://dl.sourceforge.net/phpeclipse/net.sourceforge.phpeclipse_%{version}.bin.dist.zip
+# Source0-md5:	6dbfa943161ae7efde8bc0f515f56f9e
 URL:		http://www.phpeclipse.de
 BuildRequires:	unzip
 Requires:	eclipse >= 3.1-2
@@ -32,7 +32,7 @@ kodu, podgl±d szkicu, szablony.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_eclipsedir}/{features,plugins}
 
-cp -a eclipse/{plugins,features} $RPM_BUILD_ROOT%{_eclipsedir}
+cp -a {plugins,features} $RPM_BUILD_ROOT%{_eclipsedir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
