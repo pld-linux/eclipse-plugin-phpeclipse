@@ -1,5 +1,5 @@
 Summary:	PHPeclipse - PHP/SQL/HTML Eclipse-Plugin
-Summary(pl):	PHPeclipse - wtyczka do Eclipse obs³uguj±ca PHP/SQL/HTML
+Summary(pl.UTF-8):   PHPeclipse - wtyczka do Eclipse obsÅ‚ugujÄ…ca PHP/SQL/HTML
 Name:		eclipse-plugin-phpeclipse
 Version:	1.1.8
 Release:	1
@@ -20,10 +20,10 @@ PHP, SQL, HTML - Support for the Eclipse IDE Framework
 (http://www.eclipse.org/); Some Features are PHP parser, debugger,
 code formatter, outline view, templates.
 
-%description -l pl
-Wtyczka do obs³ugi PHP, SQL, HTML dla ¶rodowiska Eclipse
+%description -l pl.UTF-8
+Wtyczka do obsÅ‚ugi PHP, SQL, HTML dla Å›rodowiska Eclipse
 (http://www.eclipse.org/); zawiera parser PHP, debugger, formatowanie
-kodu, podgl±d szkicu, szablony.
+kodu, podglÄ…d szkicu, szablony.
 
 %prep
 %setup -q -c
