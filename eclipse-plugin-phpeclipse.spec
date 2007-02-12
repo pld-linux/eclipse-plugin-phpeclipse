@@ -1,5 +1,5 @@
 Summary:	PHPeclipse - PHP/SQL/HTML Eclipse-Plugin
-Summary(pl.UTF-8):   PHPeclipse - wtyczka do Eclipse obsługująca PHP/SQL/HTML
+Summary(pl.UTF-8):	PHPeclipse - wtyczka do Eclipse obsługująca PHP/SQL/HTML
 Name:		eclipse-plugin-phpeclipse
 Version:	1.1.8
 Release:	1
